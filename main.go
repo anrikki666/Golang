@@ -20,7 +20,7 @@ func fetchAndSaveFromAPI(apiURL, filename string) error {
 	if err != nil {
 		return err
 	}
-Get ra
+
 	fmt.Printf("Ответ от API сохранен в файл: %s\n", filename)
 	return nil
 }
